@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;600;800&display=swap");
+/*Color Pallete: #202020, #FFD100, #FFF4C0*/
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Poppins";
+  color: #fff4c0;
+  background-color: #202020;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ffd100;
+}
+.navbar h1 {
+  color: #ffd100;
+  cursor: pointer;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #ffd100;
+
+  border-radius: 8px;
+}
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-list h2 {
+  text-align: center;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #ffd100;
+  text-align: center;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px #fff4c0;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #ffd100;
+  margin-bottom: 8px;
+}
+.blog-preview p {
+  color: white;
+}
+.blog-preview a {
+  text-decoration: none;
+}
+.blog-title {
+  font-size: 20px;
+  color: #ffd100;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.blog-content h2 {
+  font-size: 20px;
+  color: #ffd100;
+  margin-bottom: 10px;
+}
+.blog-content div {
+  margin: 20px 0;
+}
+.blog-content button {
+  background: #ffd100;
+  color: #202020;
+  border: 0;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.blog-content button:hover {
+  color: #fff4c0;
+}
+
+.loading {
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
+.author {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 0.8rem;
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #ffd100;
+  margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #fff4c0;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #ffd100;
+  color: #202020;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create button:hover {
+  background: #fff4c0;
+}
+
+footer {
+  text-align: center;
+
+
+}

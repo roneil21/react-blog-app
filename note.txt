@@ -1,0 +1,2 @@
+Run this code to get the json server live :
+npx json-server --watch data/db.json --port 8000
